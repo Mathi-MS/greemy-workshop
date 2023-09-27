@@ -1,0 +1,132 @@
+*{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(197, 245, 191);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: solid 1px grey;
+    box-shadow: 2px 2px rgba(24, 23, 23, 0.233);
+
+}
+.title{
+    display: inline-block;
+    margin-right: 550px;
+}
+.home{
+    display: inline;
+    padding-right: 25px;
+    transition-duration: 1s;
+    color: black;
+    text-decoration: none;
+  
+}
+.home:hover{
+    font-size: larger;
+}
+.page{
+    background-color:rgb(197, 245, 191) ;
+} 
+.float{
+    float:right;
+    padding: 60px;
+}
+.floatleft{
+    padding: 60px;
+    margin-top: 65px;
+}
+.floatleft b{
+    font-size: 40px;
+}
+.buttono{
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+    width: 150px;
+}
+.buttono:hover{
+    transform: scale(1,1.1);
+}
+.gray{
+    color: gray;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.ip{
+    font-size: 50px;
+}
+.box{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    padding: 15px;
+}
+.aboutce{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+}
+.pro h1{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(197, 245, 191);
+}
+.imgthree{
+    margin-top: -30px;
+}
+.imgtwo{
+    margin-top: 30px;
+}
+.bg{
+    padding: 10px;
+    background-color: rgb(197, 245, 191);
+    text-align: center;
+}
+.pad{
+    padding-top: 20px;
+    padding-left: 32px;
+}
+.best{
+    display: flex;
+    justify-content: space-around;
+}
+.seller{
+    text-align: center;
+}
+.five{
+    text-align: center;
+    padding-top: 20px;
+}
+input{
+    width: 75%;
+    height: 30px;
+}
+.subscribe{
+    color: aliceblue;
+    background-color: black;
+    padding: 5px;
+    margin-top: 5px;
+}
+.six{
+    background-color: rgb(197, 245, 191);
+    font-size: 15px;
+    margin-top: 20px;
+}
+.i{
+    font-size: 20px;
+}
